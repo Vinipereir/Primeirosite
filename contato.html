@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Musica</h1>
+    <div class="menu-horizontal">
+        <ul>
+            <li> <a href="index.html">inicio</a></li>
+            <li> <a href="sobre.html">Sobre</a></li>
+            <li> <a href="contato.html">Contato</a></li>
+
+        </ul>
+    </div>
+
+    <h1> Contato</h1>
+
+    <form action="/submit" method="post" enctype="multipart/form-data " autocomplete="on"
+    novalidate accept-charset="UTF-8" target="_blank">
+        <fieldset>
+            <legend> Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome Completo" maxlength="100">
+
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="seuemail@gmail.com" maxlength="100">
+
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Descrição</legend>
+            <label for="descricao">Descrição:</label>
+            <textarea name="descricao" id="descricao" placeholder="Conte-nos sobre você" required></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        
+</body>
+</html>

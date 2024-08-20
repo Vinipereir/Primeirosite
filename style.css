@@ -1,0 +1,131 @@
+body {
+
+    background-color: rgba(151, 158, 151, 0.655);
+
+}
+
+.menu-horizontal {
+    background-color: rgb(199, 70, 18);
+    overflow: hidden;
+
+}
+
+.menu-horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-horizontal li {
+    display: flex;
+}
+
+.menu-horizontal a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.menu-horizontal a:hover {
+    color: rgb(209, 179, 11);
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+
+}
+
+form legend {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: bold;
+
+
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+
+form input [ type="text"],
+form input [ type="email"],
+form input [ type="password"],
+form input [ type="number"],
+form input [ type="date"],
+form input [ type="url"],
+form select,
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+form input [type="radio"],
+form input [type="checbok"] {
+    margin-right: 10px;
+
+}
+
+form button {
+    background-color: #5cb85c;
+    color: #f4f4f4;
+    padding: 10px, 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 510px;
+    margin-top: 30px;
+
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+.imagem img {
+    border-radius: 20px;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/*fim*/
