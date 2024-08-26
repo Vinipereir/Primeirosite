@@ -116,16 +116,19 @@ form button:hover {
     background-color: #4cae4c;
 }
 
+.imagem {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+
 .imagem img {
     border-radius: 20px;
-    width: 20%;
-    height: 20%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-
-
+    width: 20%; 
+    height: auto; 
 }
+
 
 
 /*fim*/
